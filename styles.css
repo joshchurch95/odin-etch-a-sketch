@@ -15,6 +15,10 @@
     flex: 1;
 }
 
+.square.activated {
+    background-color: grey;
+}
+
 .square::after {
     content: '';
     display: block;

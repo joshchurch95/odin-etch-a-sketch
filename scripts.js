@@ -9,6 +9,9 @@ for (let i = 0; i < GRID_SIZE; i++)
     for (let j = 0; j < GRID_SIZE; j++)
     {
         const square = document.createElement('div');
+        square.addEventListener('mouseover', function() {
+            this.classList.add('activated');
+        })
         square.classList.add('square');
         row.appendChild(square);
     }
