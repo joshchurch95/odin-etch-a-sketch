@@ -1,0 +1,22 @@
+#squares-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    max-height: 100px;
+    background-color: black;
+    border: 2px solid blue;
+    flex: 1;
+}
+
+.square::after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
