@@ -1,5 +1,5 @@
 const squaresContainer = document.querySelector('#squares-container');
-const GRID_SIZE = 16;
+const GRID_SIZE = 100;
 
 for (let i = 0; i < GRID_SIZE; i++)
 {
